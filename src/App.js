@@ -57,6 +57,7 @@ const App = () => {
     const destinations = []
 
     let map = tt.map({
+      style:'https://api.tomtom.com/style/1/style/*?map=2/basic_street-satellite&poi=2/poi_dynamic-satellite',
       key: process.env.REACT_APP_TOM_TOM_API_KEY,
       container: mapElement.current,
       stylesVisibility: {
